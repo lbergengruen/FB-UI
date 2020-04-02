@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+
+#header{
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #4267b2;
+    z-index: 999;
+}
+
+.home_icon{
+    height: 10%;
+    position: fixed;
+    top: 2%;
+    left: 0%;
+}
+
+.search_input{
+    align-items: center;
+    width: 40%;
+    height: 6%;
+    position: fixed;
+    top: 4.5%;
+    right: 30%;
+    border-radius: 5vw;
+    padding-left: 5%;
+    font-size: 3vw;
+}
+
+.msg_icon{
+    height: 7%;
+    position: fixed;
+    top: 3.5%;
+    right: 10%;
+}
+
+#body{
+    position: absolute;
+    top: 15%;
+    margin-left: 5%;
+    background-color: rgb(129, 129, 129);
+    border-width: 3px;
+    width: 90%;
+    height: 1000px;
+    z-index: 99;
+}
+
+.publicacion{
+    background-color: rgb(206, 206, 206);
+    margin-bottom: 50px;
+}
+
+.imagen_perfil{
+    position: relative;
+    width: 20%;
+    margin: 15px;
+    margin-right: 0px;
+}
+
+.nombre_perfil{
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+    font-size: 6vw;
+}
+
+.tiempo_transcurrido{
+    position: relative;
+    top: 5vw;
+    left: -42%;
+    font-size: 4vw;
+}
+
+.ajustes{
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    font-size: 250%;
+}
+
+.publicacion h2{
+    padding: 5px;
+    font-size: 5vw;
+}
+
+.imagen_publicacion{
+    width: 100%;
+}
+
+.pie_de_foto{
+    background-color: rgb(223, 223, 223);
+    font-weight: bold;
+    font-size: 4vw;
+    padding: 3%;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.emociones{
+    font-size: 3.5vw;
+    color:  rgb(53, 53, 53);
+}
+
+.comentarios{
+    font-size: 3.5vw;
+    color:  rgb(53, 53, 53);
+    position: relative;
+    left: 45%;
+}
+
+.reacciones{
+    background-color: rgb(223,223,223);
+}
+
+.reacciones img{
+    height: 30px;
+    margin-bottom: 5px;
+
+}
+
+.buttons{
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+
+.buttons img{
+    margin-left: 20%
+}
